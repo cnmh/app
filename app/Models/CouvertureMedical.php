@@ -20,7 +20,7 @@ class CouvertureMedical extends Model
 
     public static array $rules = [
         'nom' => 'required|string|max:255',
-        'description' => 'required|string|max:255',
+        'description' => 'string|max:255',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'
     ];
