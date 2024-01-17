@@ -1,4 +1,4 @@
-# CNMH
+# CNMH test
 
 Notre projet vise à moderniser la gestion des dossiers patients au Centre National Mohammed VI des Handicapés (CNMH). En passant de la documentation papier à la digitalisation.
 
