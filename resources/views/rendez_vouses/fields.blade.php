@@ -6,7 +6,7 @@
 <!-- Date Rendez Vous Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('date_rendez_vous', __('models/rendezVouses.fields.date_rendez_vous').':') !!}
-    {!! Form::datetimeLocal('date_rendez_vous',  now()->format('Y-m-d\TH:i:s'), ['class' => 'form-control','id'=>'date_rendez_vous']) !!}
+    {!! Form::datetimeLocal('date_rendez_vous',  now(),  ['class' => 'form-control','id'=>'date_rendez_vous']) !!}
 </div>
 
 <input type="hidden" name="consultation_id" value="{{isset($rendezVous) ? $rendezVous->consultation_id : $consultation_id}}">
